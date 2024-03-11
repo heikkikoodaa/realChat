@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>realChat</title>
+</head>
+<body>
+  <div class="welcome-box">
+    <h1>Welcome to the realChat!</h1>
+    <p class="user-welcome">Welcome dear user</p>
+    <p class="connected-users"></p>
+  </div>
+  <div class="chat-window">
+    <div class="chat-header">
+      <p>Welcome to the chat</p>
+      <p class="chat-username">Username: blabla#123</p>
+    </div>
+    <div class="chat">
+    </div>
+    <div class="message-input">
+      <textarea class="message-input-field" type="text"></textarea>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

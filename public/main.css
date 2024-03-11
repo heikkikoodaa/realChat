@@ -1,0 +1,63 @@
+*, html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(21, 21, 21);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.welcome-box {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 2rem;
+}
+
+.welcome-box p {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.chat-window {
+  margin: 2rem;
+  min-height: calc(100vh - 12rem);
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.chat-header {
+  padding: 1rem;
+}
+
+.chat {
+  background-color: rgb(100, 25, 169);
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.message-input {
+  justify-self: flex-end !important;
+  bottom: 0;
+  background-color: blueviolet;
+  border-radius: 10px !important;
+}
+
+.message-input-field {
+  outline: none;
+  height: 100%;
+  border: none;
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 1rem;
+  overflow-y: auto;
+  resize: none;
+}
